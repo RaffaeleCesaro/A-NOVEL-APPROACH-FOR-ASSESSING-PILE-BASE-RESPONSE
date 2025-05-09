@@ -22,5 +22,8 @@ The proposed numerical code is implemented in MATLAB. Here, the code is provided
   . Once the analysis is complete, the MATLAB code will have created a file called 'results.txt' in the same folder. The path to this file must be specified in cell A2 of the Excel file. By clicking the 'Import results' button, the results will be automatically
    imported into Excel, and the load-settlement curve will be updated. The Excel file also includes empirical correlations for simplified evaluation of the load-settlement curve and for estimating the mobilized resistance at a relative settlement _w/d_ of 5% and 10%.
   Note that when using these empirical correlations, it is not necessary to specify the maximum and minimum void ratios (_e<sub>max</sub>_ and _e<sub>min</sub>_).
+  
   Remember that whenever the input data in the Excel file are changed, the file must be saved before running the analysis.
+
+  N.B.: After downloading the Excel file, remember to enable macros and to unblock the file, right-click on the file in your downloads folder, select "Properties", and then check the "Unblock" box in the General tab. Click "Apply" and "OK" to save the changes. This is needed in case automatic restrictions are applied to downloaded files on your computer.
 
